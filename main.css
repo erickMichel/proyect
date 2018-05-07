@@ -1,0 +1,33 @@
+*{margin: 0; padding: 0; font-family: 'Noto Sans', sans-serif}
+body{ background-color: #f2f2f2;}
+nav{background-color: #4465a6; padding: 10px;}
+.container{width: 80%; margin: auto;}
+li{list-style: none; display: inline-block; padding:10px;}
+li:hover{background-color: #000;}
+.enlace{text-decoration: none; color: #ffffff; font-size: 15px;}
+.activo{background-color: #000;}
+li:hover .activo{color: #fff}
+.fbuscar{display: inline;}
+.buscar{width: 20%; padding: 5px; margin-left: 20px; border-radius: 10px; border: 0;}
+.open{margin-left: 50px }
+.valido{background-color: #17C613; width: 100%;}
+.valido p, .incorrecto p{padding: 6px; text-align: center; color: #ffffff; font-family: sans-serif;}
+.incorrecto{background-color: red; width: 100%}
+.cerrar{float: right; color: #000; margin-right: 20px}
+#modale, #modalu{width: 100%; top: 0; background-color: rgba(0, 0, 0, .4); height: 100%; position: absolute; z-index: 1;}
+.forme, .formu{top: 50%; left: 50%; position: absolute; text-align: center; background-color: #4465a6; padding: 10px; width: 30%; transform: translate(-50%, -50%);}
+.forme h2, .formu h2{color: #fff;}
+input{padding: 8px; margin: 5px; width: 300px; border: 0}
+.boton{background-color: #bf343f; color: #fff; cursor: pointer; width: 150px; font-size: 18px; border: 0;}
+.down{background-color: #4465a6; top: 50px; position: absolute; display: none; border-radius: 5px; transition: all 1s}
+.down li{display: block; margin: 20px;}
+.nav{margin: auto; display: inline-block; width: 100%;}
+.sub{margin-left: 100px;}
+.nav .sub:hover ul{display: block;}
+.banner img{width: 100%; height: 50%}
+.login{padding: 20px; text-align: center; background-color: #4465a6; width: 25%; margin: 20px;}
+.login h2{color: #fff;}
+.eemail{color: #fff; background-color: #E51313; padding: 2px;}
+.btn-log{background-color: #bf343f; color: #fff; border: 0; cursor: pointer; font-size: 18px}
+.icon-search{color: #ffffff;}
+
